@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "r": "final-world:end_block"
+  },
+  "pattern": [
+    "r r",
+    "r r",
+    "   "
+  ],
+  "result": {
+    "count": 1,
+    "id": "final-world:ender_boots"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "m": "minecraft:stick",
+    "r": "final-world:end_block"
+  },
+  "pattern": [
+    " r ",
+    " r ",
+    " m "
+  ],
+  "result": {
+    "count": 1,
+    "id": "final-world:ender_sword"
+  }
+}

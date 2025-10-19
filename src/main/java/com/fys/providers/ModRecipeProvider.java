@@ -66,7 +66,73 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .pattern(" m ")
                         .input('r', ModBlocks.END_BLOCK)
                         .input('m', Items.STICK)
-                        .criterion(hasItem(ModItems.ENDER_AXE), conditionsFromItem(ModItems.ENDER_AXE))
+                        .criterion(hasItem(ModBlocks.END_BLOCK), conditionsFromItem(ModBlocks.END_BLOCK))
+                        .offerTo(exporter);
+
+                createShaped(RecipeCategory.MISC, ModItems.ENDER_HOE)
+                        .pattern("rr ")
+                        .pattern(" m ")
+                        .pattern(" m ")
+                        .input('r', ModBlocks.END_BLOCK)
+                        .input('m', Items.STICK)
+                        .criterion(hasItem(ModBlocks.END_BLOCK), conditionsFromItem(ModBlocks.END_BLOCK))
+                        .offerTo(exporter);
+
+                createShaped(RecipeCategory.MISC, ModItems.ENDER_PICKAXE)
+                        .pattern("rrr")
+                        .pattern(" m ")
+                        .pattern(" m ")
+                        .input('r', ModBlocks.END_BLOCK)
+                        .input('m', Items.STICK)
+                        .criterion(hasItem(ModBlocks.END_BLOCK), conditionsFromItem(ModBlocks.END_BLOCK))
+                        .offerTo(exporter);
+
+                createShaped(RecipeCategory.MISC, ModItems.ENDER_SHOVEL)
+                        .pattern(" r ")
+                        .pattern(" m ")
+                        .pattern(" m ")
+                        .input('r', ModBlocks.END_BLOCK)
+                        .input('m', Items.STICK)
+                        .criterion(hasItem(ModBlocks.END_BLOCK), conditionsFromItem(ModBlocks.END_BLOCK))
+                        .offerTo(exporter);
+
+                createShaped(RecipeCategory.MISC, ModItems.ENDER_SWORD)
+                        .pattern(" r ")
+                        .pattern(" r ")
+                        .pattern(" m ")
+                        .input('r', ModBlocks.END_BLOCK)
+                        .input('m', Items.STICK)
+                        .criterion(hasItem(ModBlocks.END_BLOCK), conditionsFromItem(ModBlocks.END_BLOCK))
+                        .offerTo(exporter);
+
+                //装备
+                createShaped(RecipeCategory.MISC, ModItems.ENDER_BOOTS)
+                        .pattern("r r")
+                        .pattern("r r")
+                        .pattern("   ")
+                        .input('r', ModBlocks.END_BLOCK)
+                        .criterion(hasItem(ModBlocks.END_BLOCK), conditionsFromItem(ModBlocks.END_BLOCK))
+                        .offerTo(exporter);
+                createShaped(RecipeCategory.MISC, ModItems.ENDER_CHESTPLATE)
+                        .pattern("r r")
+                        .pattern("rrr")
+                        .pattern("rrr")
+                        .input('r', ModBlocks.END_BLOCK)
+                        .criterion(hasItem(ModBlocks.END_BLOCK), conditionsFromItem(ModBlocks.END_BLOCK))
+                        .offerTo(exporter);
+                createShaped(RecipeCategory.MISC, ModItems.ENDER_HELMET)
+                        .pattern("rrr")
+                        .pattern("r r")
+                        .pattern("   ")
+                        .input('r', ModBlocks.END_BLOCK)
+                        .criterion(hasItem(ModItems.ENDER_CHESTPLATE), conditionsFromItem(ModBlocks.END_BLOCK))
+                        .offerTo(exporter);
+                createShaped(RecipeCategory.MISC, ModItems.ENDER_LEGGINGS)
+                        .pattern("rrr")
+                        .pattern("r r")
+                        .pattern("r r")
+                        .input('r', ModBlocks.END_BLOCK)
+                        .criterion(hasItem(ModBlocks.END_BLOCK), conditionsFromItem(ModBlocks.END_BLOCK))
                         .offerTo(exporter);
             }
         };

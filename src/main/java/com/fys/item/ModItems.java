@@ -76,20 +76,20 @@ public class ModItems {
     //----------------------自定义盔甲 start
     //头盔
     public static final Item ENDER_HELMET = register("ender_helmet", Item::new, new Item.Settings()
-            .armor(ModArmorMaterial.ENDER, EquipmentType.HELMET)
-            .maxDamage(EquipmentType.HELMET.getMaxDamage(ModConstants.BASE_DURABILITY)));
+            .armor(ModArmorMaterial.ENDER, EquipmentType.HELMET));
+//            .maxDamage(EquipmentType.HELMET.getMaxDamage(ModConstants.BASE_DURABILITY)));
     //胸甲
     public static final Item ENDER_CHESTPLATE = register("ender_chestplate", Item::new, new Item.Settings()
-            .armor(ModArmorMaterial.ENDER, EquipmentType.CHESTPLATE)
-            .maxDamage(EquipmentType.HELMET.getMaxDamage(ModConstants.BASE_DURABILITY)));
+            .armor(ModArmorMaterial.ENDER, EquipmentType.CHESTPLATE));
+//            .maxDamage(EquipmentType.HELMET.getMaxDamage(ModConstants.BASE_DURABILITY)));
     //绑腿
     public static final Item ENDER_LEGGINGS = register("ender_leggings", Item::new, new Item.Settings()
-            .armor(ModArmorMaterial.ENDER, EquipmentType.LEGGINGS)
-            .maxDamage(EquipmentType.HELMET.getMaxDamage(ModConstants.BASE_DURABILITY)));
+            .armor(ModArmorMaterial.ENDER, EquipmentType.LEGGINGS));
+//            .maxDamage(EquipmentType.HELMET.getMaxDamage(ModConstants.BASE_DURABILITY)));
     //靴子
     public static final Item ENDER_BOOTS = register("ender_boots", Item::new, new Item.Settings()
-            .armor(ModArmorMaterial.ENDER, EquipmentType.BOOTS)
-            .maxDamage(EquipmentType.HELMET.getMaxDamage(ModConstants.BASE_DURABILITY)));
+            .armor(ModArmorMaterial.ENDER, EquipmentType.BOOTS));
+//            .maxDamage(EquipmentType.HELMET.getMaxDamage(ModConstants.BASE_DURABILITY)));
     //----------------------自定义盔甲 end
 
     public static Item register(String key, Function<Item.Settings, Item> factory, Item.Settings settings) {

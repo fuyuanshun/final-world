@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "r": "final-world:end_block"
+  },
+  "pattern": [
+    "r r",
+    "rrr",
+    "rrr"
+  ],
+  "result": {
+    "count": 1,
+    "id": "final-world:ender_chestplate"
+  }
+}

@@ -46,7 +46,7 @@ public class DemonFruitMoon extends Item {
                     false,
                     false
             );
-            HealthUtil.addMaxHealth(player, 2D, this.getTranslationKey());
+            HealthUtil.addMaxHealth(player, -2D, this.getTranslationKey());
             player.addStatusEffect(statusEffectInstance);
         }
         return itemStack;

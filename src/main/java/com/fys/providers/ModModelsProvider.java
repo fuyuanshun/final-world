@@ -41,5 +41,12 @@ public class ModModelsProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.ENDER_PICKAXE, Models.HANDHELD);
         itemModelGenerator.register(ModItems.ENDER_HOE, Models.HANDHELD);
         itemModelGenerator.register(ModItems.ENDER_SHOVEL, Models.HANDHELD);
+
+        //盔甲
+        itemModelGenerator.register(ModItems.ENDER_HELMET, Models.GENERATED);
+        itemModelGenerator.register(ModItems.ENDER_CHESTPLATE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.ENDER_LEGGINGS, Models.GENERATED);
+        itemModelGenerator.register(ModItems.ENDER_BOOTS, Models.GENERATED);
+
     }
 }

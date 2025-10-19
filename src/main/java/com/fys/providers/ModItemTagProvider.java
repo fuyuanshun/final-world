@@ -29,6 +29,9 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
         valueLookupBuilder(ModItemTags.ENDER_TOOL_MATERIALS)
                 .add(ModItems.RAW_END_BLOCK)
         ;
+
+        valueLookupBuilder(ModItemTags.REPAIRS_ENDER_ARMOR)
+                .add(ModItems.RAW_END_BLOCK);
     }
 
 }

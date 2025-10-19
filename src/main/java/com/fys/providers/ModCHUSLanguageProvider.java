@@ -39,6 +39,11 @@ public class ModCHUSLanguageProvider extends FabricLanguageProvider {
         translationBuilder.add("item.final-world.ender_pickaxe", "ender pickaxe");
         translationBuilder.add("item.final-world.ender_hoe", "ender hoe");
         translationBuilder.add("item.final-world.ender_shovel", "ender shovel");
+        //armor
+        translationBuilder.add("item.final-world.ender_helmet", "ender helmet");
+        translationBuilder.add("item.final-world.ender_chestplate", "ender chestplate");
+        translationBuilder.add("item.final-world.ender_leggings", "ender leggings");
+        translationBuilder.add("item.final-world.ender_boots", "ender boots");
         //物品栏
         translationBuilder.add("itemGroup.finalWorld", "Final World");
         translationBuilder.add("itemGroup.demonGroup", "Demon Fruit");

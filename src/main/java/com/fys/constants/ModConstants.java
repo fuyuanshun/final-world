@@ -28,4 +28,7 @@ public class ModConstants {
 
     //探矿器耐久度
     public static final Integer PROSPECTOR_DAMAGE = 128;
+
+    //盔甲基础耐久
+    public static final int BASE_DURABILITY = 15;
 }

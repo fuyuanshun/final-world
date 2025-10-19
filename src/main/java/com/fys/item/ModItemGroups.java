@@ -40,6 +40,11 @@ public class ModItemGroups {
                         entries.add(ModItems.ENDER_PICKAXE);
                         entries.add(ModItems.ENDER_HOE);
                         entries.add(ModItems.ENDER_SHOVEL);
+                        //装备
+                        entries.add(ModItems.ENDER_HELMET);
+                        entries.add(ModItems.ENDER_CHESTPLATE);
+                        entries.add(ModItems.ENDER_LEGGINGS);
+                        entries.add(ModItems.ENDER_BOOTS);
 //                        entries.add(ModBlocks.PRISMARINE_AMP_BLOCK);
 
                     })

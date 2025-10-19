@@ -40,6 +40,11 @@ public class ModENUSLanguageProvider extends FabricLanguageProvider {
         translationBuilder.add("item.final-world.ender_pickaxe", "末影稿");
         translationBuilder.add("item.final-world.ender_hoe", "末影锄");
         translationBuilder.add("item.final-world.ender_shovel", "末影铲");
+        //盔甲
+        translationBuilder.add("item.final-world.ender_helmet", "末影头盔");
+        translationBuilder.add("item.final-world.ender_chestplate", "末影胸甲");
+        translationBuilder.add("item.final-world.ender_leggings", "末影护腿");
+        translationBuilder.add("item.final-world.ender_boots", "末影靴");
         //物品栏
         translationBuilder.add("itemGroup.finalWorld", "终末地");
         translationBuilder.add("itemGroup.demonGroup", "恶魔果实");

@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "final-world",
+	"version": "${version}",
+	"name": "final-world",
+	"description": "终末地",
+	"authors": [
+		"fys"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/final-world/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+          "com.fys.FinalWorld"
+		],
+		"fabric-datagen": [
+          "com.fys.FinalWorldDataGenerator"
+		]
+	},
+	"mixins": [
+		{
+			"config": "final-world.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.17.3",
+		"minecraft": "~1.21.10",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "final-world:block/end_block"
+    }
+  }
+}

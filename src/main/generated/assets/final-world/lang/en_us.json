@@ -1,0 +1,15 @@
+{
+  "block.final-world.end_block": "末影石",
+  "block.final-world.end_block_ore": "末影原矿",
+  "block.final-world.prismarine_amp_block": "海晶灯",
+  "block.final-world.sun_block": "太阳石",
+  "block.final-world.sun_block_ore": "太阳原矿",
+  "item.final-world.demon_fruit_moon": "月亮之恶魔果实",
+  "item.final-world.demon_fruit_moon_tooltip": "§6来自远古恶魔的诅咒-月亮恶魔",
+  "item.final-world.demon_fruit_sun": "太阳之恶魔果实",
+  "item.final-world.demon_fruit_sun_tooltip": "§6来自远古恶魔的诅咒-太阳恶魔",
+  "item.final-world.prospector": "探矿器",
+  "item.final-world.raw_end_block": "末影粉末",
+  "itemGroup.demonGroup": "恶魔果实",
+  "itemGroup.finalWorld": "终末地"
+}

@@ -22,10 +22,10 @@ public class ModModelsProvider extends FabricModelProvider {
     @Override
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.END_BLOCK);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.END_BLOCK_ORE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.END_ORE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.PRISMARINE_AMP_BLOCK);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.SUN_BLOCK);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.SUN_BLOCK_ORE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.SUN_ORE);
     }
 
     @Override
@@ -35,5 +35,11 @@ public class ModModelsProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.DEMON_FRUIT_MOON, Models.GENERATED);
 
         itemModelGenerator.register(ModItems.PROSPECTOR, Models.GENERATED);
+        //工具
+        itemModelGenerator.register(ModItems.ENDER_SWORD, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.ENDER_AXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.ENDER_PICKAXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.ENDER_HOE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.ENDER_SHOVEL, Models.HANDHELD);
     }
 }

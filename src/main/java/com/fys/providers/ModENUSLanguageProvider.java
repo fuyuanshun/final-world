@@ -21,10 +21,10 @@ public class ModENUSLanguageProvider extends FabricLanguageProvider {
     @Override
     public void generateTranslations(RegistryWrapper.WrapperLookup registryLookup, TranslationBuilder translationBuilder) {
         translationBuilder.add("item.final-world.raw_end_block", "末影粉末");
-        translationBuilder.add("block.final-world.end_block_ore", "末影原矿");
+        translationBuilder.add("block.final-world.end_ore", "末影原矿");
         translationBuilder.add("block.final-world.end_block", "末影石");
 
-        translationBuilder.add("block.final-world.sun_block_ore", "太阳原矿");
+        translationBuilder.add("block.final-world.sun_ore", "太阳原矿");
         translationBuilder.add("block.final-world.sun_block", "太阳石");
 
         translationBuilder.add("item.final-world.demon_fruit_sun", "太阳之恶魔果实");
@@ -34,6 +34,12 @@ public class ModENUSLanguageProvider extends FabricLanguageProvider {
         translationBuilder.add("block.final-world.prismarine_amp_block", "海晶灯");
 
         translationBuilder.add("item.final-world.prospector", "探矿器");
+
+        translationBuilder.add("item.final-world.ender_sword", "末影之剑");
+        translationBuilder.add("item.final-world.ender_axe", "末影之斧");
+        translationBuilder.add("item.final-world.ender_pickaxe", "末影稿");
+        translationBuilder.add("item.final-world.ender_hoe", "末影锄");
+        translationBuilder.add("item.final-world.ender_shovel", "末影铲");
         //物品栏
         translationBuilder.add("itemGroup.finalWorld", "终末地");
         translationBuilder.add("itemGroup.demonGroup", "恶魔果实");

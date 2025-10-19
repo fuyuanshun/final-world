@@ -13,6 +13,8 @@ import net.minecraft.util.Identifier;
  */
 public class ModItemTags {
     public static final TagKey<Item> RAW_LIST = of("raw_list");
+    //修复末影工具的物品标签
+    public static final TagKey<Item> ENDER_TOOL_MATERIALS = of("ender_tool_materials");
 
     private static TagKey<Item> of(String id) {
         return TagKey.of(RegistryKeys.ITEM, Identifier.of(ModConstants.MOD_ID, id));

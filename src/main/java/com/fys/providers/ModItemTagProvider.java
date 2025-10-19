@@ -1,6 +1,8 @@
 package com.fys.providers;
 
+import com.fys.block.ModBlocks;
 import com.fys.item.ModItems;
+import com.fys.registry.tag.ModBlockTags;
 import com.fys.registry.tag.ModItemTags;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
@@ -23,6 +25,10 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
     protected void configure(RegistryWrapper.WrapperLookup wrapperLookup) {
         valueLookupBuilder(ModItemTags.RAW_LIST)
                 .add(ModItems.RAW_END_BLOCK);
+
+        valueLookupBuilder(ModItemTags.ENDER_TOOL_MATERIALS)
+                .add(ModItems.RAW_END_BLOCK)
+        ;
     }
 
 }

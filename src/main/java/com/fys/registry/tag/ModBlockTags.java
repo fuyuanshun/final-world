@@ -13,7 +13,7 @@ import net.minecraft.util.Identifier;
  */
 public class ModBlockTags {
     public static final TagKey<Block> ORE_LIST = of("ore_list");
-
+    public static final TagKey<Block> INCORRECT_FOR_ENDER_TOOL = of("incorrect_for_ender_tool");
 
     private static TagKey<Block> of(String id) {
         return TagKey.of(RegistryKeys.BLOCK, Identifier.of(ModConstants.MOD_ID, id));

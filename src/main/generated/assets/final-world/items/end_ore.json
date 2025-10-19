@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "final-world:block/sun_block_ore"
+    "model": "final-world:block/end_ore"
   }
 }

@@ -27,13 +27,19 @@ public class ModItemGroups {
                     .entries((displayContext, entries) -> {
                         entries.add(ModItems.RAW_END_BLOCK);
                         //方块
-                        entries.add(ModBlocks.END_BLOCK_ORE);
+                        entries.add(ModBlocks.END_ORE);
                         entries.add(ModBlocks.END_BLOCK);
                         //太阳矿
-                        entries.add(ModBlocks.SUN_BLOCK_ORE);
+                        entries.add(ModBlocks.SUN_ORE);
                         entries.add(ModBlocks.SUN_BLOCK);
                         //
                         entries.add(ModItems.PROSPECTOR);
+                        //工具
+                        entries.add(ModItems.ENDER_SWORD);
+                        entries.add(ModItems.ENDER_AXE);
+                        entries.add(ModItems.ENDER_PICKAXE);
+                        entries.add(ModItems.ENDER_HOE);
+                        entries.add(ModItems.ENDER_SHOVEL);
 //                        entries.add(ModBlocks.PRISMARINE_AMP_BLOCK);
 
                     })

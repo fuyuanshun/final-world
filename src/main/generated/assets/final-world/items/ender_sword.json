@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "final-world:block/end_block_ore"
+    "model": "final-world:item/ender_sword"
   }
 }

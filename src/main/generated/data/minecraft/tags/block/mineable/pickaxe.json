@@ -1,5 +1,8 @@
 {
   "values": [
-    "final-world:end_block_ore"
+    "final-world:end_ore",
+    "final-world:end_block",
+    "final-world:sun_ore",
+    "final-world:sun_block"
   ]
 }

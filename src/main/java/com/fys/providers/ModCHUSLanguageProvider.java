@@ -21,10 +21,10 @@ public class ModCHUSLanguageProvider extends FabricLanguageProvider {
     @Override
     public void generateTranslations(RegistryWrapper.WrapperLookup registryLookup, TranslationBuilder translationBuilder) {
         translationBuilder.add("item.final-world.raw_end_block", "end powder");
-        translationBuilder.add("block.final-world.end_block_ore", "end block ore");
+        translationBuilder.add("block.final-world.end_ore", "end ore");
         translationBuilder.add("block.final-world.end_block", "end block");
 
-        translationBuilder.add("block.final-world.sun_block_ore", "sun block ore");
+        translationBuilder.add("block.final-world.sun_ore", "sun ore");
         translationBuilder.add("block.final-world.sun_block", "sun block");
 
         translationBuilder.add("item.final-world.demon_fruit_sun", "sun of demon fruit");
@@ -34,6 +34,11 @@ public class ModCHUSLanguageProvider extends FabricLanguageProvider {
 //        translationBuilder.add("block.final-world.prismarine_amp_block", "prismarine amp block");
         //
         translationBuilder.add("item.final-world.prospector", "prospector");
+        translationBuilder.add("item.final-world.ender_sword", "ender sword");
+        translationBuilder.add("item.final-world.ender_axe", "ender axe");
+        translationBuilder.add("item.final-world.ender_pickaxe", "ender pickaxe");
+        translationBuilder.add("item.final-world.ender_hoe", "ender hoe");
+        translationBuilder.add("item.final-world.ender_shovel", "ender shovel");
         //物品栏
         translationBuilder.add("itemGroup.finalWorld", "Final World");
         translationBuilder.add("itemGroup.demonGroup", "Demon Fruit");

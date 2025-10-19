@@ -39,11 +39,9 @@ public class ModBlockLootTableProvider extends FabricBlockLootTableProvider {
 
     @Override
     public void generate() {
-        addDrop(ModBlocks.END_BLOCK_ORE);
+        addDropWithSilkTouch(ModBlocks.END_ORE);
 
-        addDropWithSilkTouch(ModBlocks.END_BLOCK_ORE);
-
-        addDrop(ModBlocks.END_BLOCK_ORE, ModItemOreDrops(ModBlocks.END_BLOCK_ORE, ModItems.RAW_END_BLOCK));
+        addDrop(ModBlocks.END_ORE, ModItemOreDrops(ModBlocks.END_ORE, ModItems.RAW_END_BLOCK));
     }
 
 

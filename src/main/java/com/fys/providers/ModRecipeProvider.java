@@ -8,6 +8,7 @@ import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
 import net.minecraft.data.recipe.RecipeExporter;
 import net.minecraft.data.recipe.RecipeGenerator;
 import net.minecraft.item.Item;
+import net.minecraft.item.Items;
 import net.minecraft.recipe.book.RecipeCategory;
 import net.minecraft.registry.RegistryKeys;
 import net.minecraft.registry.RegistryWrapper;
@@ -57,6 +58,15 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .pattern("rrr")
                         .input('r', ModBlocks.SUN_BLOCK)
                         .criterion(hasItem(ModItems.DEMON_FRUIT_SUN), conditionsFromItem(ModItems.DEMON_FRUIT_SUN))
+                        .offerTo(exporter);
+
+                createShaped(RecipeCategory.MISC, ModItems.ENDER_AXE)
+                        .pattern("rr ")
+                        .pattern("rm ")
+                        .pattern(" m ")
+                        .input('r', ModBlocks.END_BLOCK)
+                        .input('m', Items.STICK)
+                        .criterion(hasItem(ModItems.ENDER_AXE), conditionsFromItem(ModItems.ENDER_AXE))
                         .offerTo(exporter);
             }
         };

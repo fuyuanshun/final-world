@@ -22,7 +22,7 @@ public class ModBlocks {
 
 
     //末影矿
-    public static final Block END_BLOCK_ORE = register("end_block_ore", Block::new,
+    public static final Block END_ORE = register("end_ore", Block::new,
             AbstractBlock.Settings.create()
                     .requiresTool()
                     .strength(1.5F, 6.0F));
@@ -34,15 +34,15 @@ public class ModBlocks {
                     .strength(1.5F, 6.0F));
 
     //太阳矿
-    public static final Block SUN_BLOCK_ORE = register("sun_block_ore", Block::new,
+    public static final Block SUN_ORE = register("sun_ore", Block::new,
             AbstractBlock.Settings.create()
-//                    .requiresTool()
+                    .requiresTool()
                     .strength(1.5F, 6.0F));
 
     //太阳石
     public static final Block SUN_BLOCK = register("sun_block", Block::new,
             AbstractBlock.Settings.create()
-//                    .requiresTool()
+                    .requiresTool()
                     .strength(1.5F, 6.0F));
 
 

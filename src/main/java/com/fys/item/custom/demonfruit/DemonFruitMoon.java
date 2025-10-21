@@ -1,5 +1,6 @@
 package com.fys.item.custom.demonfruit;
 
+import com.fys.entity.ModStatusEffects;
 import com.fys.util.HealthUtil;
 import net.minecraft.component.type.FoodComponent;
 import net.minecraft.component.type.TooltipDisplayComponent;
@@ -39,7 +40,7 @@ public class DemonFruitMoon extends Item {
         ItemStack itemStack = super.finishUsing(stack, world, user);
         if (user instanceof PlayerEntity player && !world.isClient()) {
             StatusEffectInstance statusEffectInstance = new StatusEffectInstance(
-                    StatusEffects.SPEED,
+                    ModStatusEffects.LIGHTNING,
                     Integer.MAX_VALUE,
                     3,
                     true,

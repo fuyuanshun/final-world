@@ -2,6 +2,7 @@ package com.fys;
 
 import com.fys.block.ModBlocks;
 import com.fys.constants.ModConstants;
+import com.fys.entity.ModStatusEffects;
 import com.fys.item.ModItemGroups;
 import com.fys.item.ModItems;
 import com.fys.listener.ModModifyLootTableListener;
@@ -27,6 +28,7 @@ public class FinalWorld implements ModInitializer {
         ModItemTags.register();
         ModBlockTags.register();
 		ModModifyLootTableListener.register();
+		ModStatusEffects.registerStatusEffects();
 
         LOGGER.info("Final-World 加载成功");
 	}

@@ -5,6 +5,7 @@ import com.fys.item.armor.ModArmorMaterial;
 import com.fys.item.custom.Prospector;
 import com.fys.item.custom.demonfruit.DemonFruitMoon;
 import com.fys.item.custom.demonfruit.DemonFruitSun;
+import com.fys.item.weapon.LightningWeapon;
 import com.fys.registry.tag.ModBlockTags;
 import com.fys.registry.tag.ModItemTags;
 import net.minecraft.item.Item;
@@ -29,6 +30,10 @@ public class ModItems {
 
     public static final Item RAW_END_BLOCK = register("raw_end_block",
             Item::new, new Item.Settings());
+
+    public static final Item MAGIC_WAND = register("magic_wand",
+            Item::new, new Item.Settings());
+
 
     //恶魔果实
     public static final Item DEMON_FRUIT_SUN = register("demon_fruit_sun",

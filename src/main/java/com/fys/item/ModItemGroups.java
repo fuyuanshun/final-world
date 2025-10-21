@@ -26,6 +26,7 @@ public class ModItemGroups {
                     .icon(() -> new ItemStack(ModBlocks.SUN_BLOCK))
                     .entries((displayContext, entries) -> {
                         entries.add(ModItems.RAW_END_BLOCK);
+                        entries.add(ModItems.MAGIC_WAND);
                         //方块
                         entries.add(ModBlocks.END_ORE);
                         entries.add(ModBlocks.END_BLOCK);

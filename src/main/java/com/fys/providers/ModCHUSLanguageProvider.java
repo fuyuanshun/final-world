@@ -21,6 +21,7 @@ public class ModCHUSLanguageProvider extends FabricLanguageProvider {
     @Override
     public void generateTranslations(RegistryWrapper.WrapperLookup registryLookup, TranslationBuilder translationBuilder) {
         translationBuilder.add("item.final-world.raw_end_block", "end powder");
+        translationBuilder.add("item.final-world.magic_wand", "magic wand");
         translationBuilder.add("block.final-world.end_ore", "end ore");
         translationBuilder.add("block.final-world.end_block", "end block");
 

@@ -1,0 +1,52 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "final-world:item/magic_wand",
+		"particle": "final-world:item/magic_wand"
+	},
+	"elements": [
+		{
+			"from": [9, 14, 5],
+			"to": [10, 17, 7],
+			"rotation": {"angle": 32.5, "axis": "x", "origin": [9, 16, 6]},
+			"faces": {
+				"north": {"uv": [2, 5, 3, 8], "texture": "#0"},
+				"east": {"uv": [2, 2, 4, 5], "texture": "#0"},
+				"south": {"uv": [3, 5, 4, 8], "texture": "#0"},
+				"west": {"uv": [4, 2, 6, 5], "texture": "#0"},
+				"up": {"uv": [5, 7, 4, 5], "texture": "#0"},
+				"down": {"uv": [6, 5, 5, 7], "texture": "#0"}
+			}
+		},
+		{
+			"from": [9, 15, 7],
+			"to": [10, 16, 14],
+			"rotation": {"angle": 32.5, "axis": "x", "origin": [9, 16, 6]},
+			"faces": {
+				"north": {"uv": [6, 2, 7, 3], "texture": "#0"},
+				"east": {"uv": [0, 0, 7, 1], "texture": "#0"},
+				"south": {"uv": [6, 3, 7, 4], "texture": "#0"},
+				"west": {"uv": [0, 1, 7, 2], "texture": "#0"},
+				"up": {"uv": [1, 9, 0, 2], "texture": "#0"},
+				"down": {"uv": [2, 2, 1, 9], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [-1.25, -5.25, -4.25]
+		},
+		"thirdperson_lefthand": {
+			"translation": [1.5, -5.25, -4.5]
+		}
+	},
+	"groups": [
+		{
+			"name": "group",
+			"origin": [0, 0, 0],
+			"color": 0,
+			"children": [0, 1]
+		}
+	]
+}

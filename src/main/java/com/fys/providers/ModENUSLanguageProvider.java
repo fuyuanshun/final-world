@@ -21,6 +21,7 @@ public class ModENUSLanguageProvider extends FabricLanguageProvider {
     @Override
     public void generateTranslations(RegistryWrapper.WrapperLookup registryLookup, TranslationBuilder translationBuilder) {
         translationBuilder.add("item.final-world.raw_end_block", "末影粉末");
+        translationBuilder.add("item.final-world.magic_wand", "魔杖");
         translationBuilder.add("block.final-world.end_ore", "末影原矿");
         translationBuilder.add("block.final-world.end_block", "末影石");
 

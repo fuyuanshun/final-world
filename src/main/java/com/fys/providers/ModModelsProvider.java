@@ -31,6 +31,7 @@ public class ModModelsProvider extends FabricModelProvider {
     @Override
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
         itemModelGenerator.register(ModItems.RAW_END_BLOCK, Models.GENERATED);
+//        itemModelGenerator.register(ModItems.MAGIC_WAND, Models.GENERATED);
         itemModelGenerator.register(ModItems.DEMON_FRUIT_SUN, Models.GENERATED);
         itemModelGenerator.register(ModItems.DEMON_FRUIT_MOON, Models.GENERATED);
 
